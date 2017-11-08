@@ -1,0 +1,35 @@
+.ttt {
+  margin: 0 auto;
+  background-color: black;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.ttt ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.ttt li {
+  height: 33.33333333%;
+  width: 33.33333333%;
+  display: block;
+  background-color: gray;
+  border: 3px solid black;
+  box-sizing: border-box;
+  font-size: 120px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: green;
+  text-align: center;
+}
+
+.ttt li:hover {
+  background-color: yellow;
+}
