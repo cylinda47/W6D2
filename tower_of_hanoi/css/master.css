@@ -1,0 +1,46 @@
+.hanoi {
+  display: flex;
+  justify-content: center;
+  height: 180px;
+}
+.hanoi ul {
+  list-style: none;
+  border-bottom: 10px solid black;
+  padding: 10px;
+  width: 150px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  cursor: pointer;
+  height: 100%;
+}
+
+.hanoi ul:hover {
+  border-bottom: 10px solid blue;
+}
+
+.hanoi li {
+  display: block;
+  background-color: gray;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.disc-00 {
+  width: 40px;
+  height: 40px;
+}
+.disc-01 {
+  width: 80px;
+  height: 40px;
+}
+.disc-02 {
+  width: 140px;
+  height: 40px;
+}
+
+ul.red {
+  border-color: red;
+}
